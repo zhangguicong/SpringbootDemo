@@ -6,17 +6,9 @@ spring:
   type: com.alibaba.druid.pool.DruidDataSource
   ism:
     driver-class-name: com.mysql.jdbc.Driver
-#    username: root
-#    password: 1qaz@WSX
-#    url: jdbc:mysql://rm-bp187fcavt21h88whqo.mysql.rds.aliyuncs.com:3306/new_ism_test?useSSL=false&useUnicode=true&characterEncoding=UTF-8
-    username: root
-    password: admin
+    username: ***
+    password: ***
     url: jdbc:mysql://localhost:3306/new_ism?useSSL=false&useUnicode=true&characterEncoding=UTF-8
-  jellyfish:
-    driver-class-name: com.mysql.jdbc.Driver
-    username: jellyfish_test
-    password: Lsm13579
-    url: jdbc:mysql://rds67m2rh7ullpq5nah6o.mysql.rds.aliyuncs.com:3306/jellyfish_test?useSSL=false&useUnicode=true&characterEncoding=UTF-8
   redis:
     host: 127.0.0.1
   http:
@@ -39,10 +31,10 @@ logging:
     cn.com.ahsoft.new_ism.daos: debug # enable mybatis sql print
 #    org.springframework.web: info
 
-qr.url: http://192.168.20.186:8080/wx/qrRequest?loginName=
-wx.msg.url: http://192.168.20.186:8080/wx/sendQueueMsg
+qr.url: 
+wx.msg.url: 
 #OSS配置
-oss.endpoint: http://oss-cn-hangzhou.aliyuncs.com
-oss.accessKeyId: LTAIhS8ooBheZAx5
-oss.accessKeySecret: bmdIKDyvr9vtrpIglhUq5X33NRZzTq
-oss.bucketName: matle
+oss.endpoint: 
+oss.accessKeyId: 
+oss.accessKeySecret: 
+oss.bucketName:
